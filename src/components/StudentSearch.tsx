@@ -24,7 +24,9 @@ return students.filter(stud=> stud.name.toLowerCase().includes(searchValue.toLow
 return (<div>
 <h2>Student Search</h2>
 <input 
+style={{margin:'10px',padding:'10px'}}
 placeholder="Add student"
+name='student'
 value={input}
 onChange={(e)=> setInput(e.target.value)}
 />
